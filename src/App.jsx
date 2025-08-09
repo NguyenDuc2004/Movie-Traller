@@ -38,7 +38,8 @@ function App() {
         method: "GET",
         headers: {
           accept: "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
+          // Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`, 
+          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFkNGNlOTI5YzNlNmM4MjgxOTUyMWM1ZjE4Njk5MiIsIm5iZiI6MTc1NDU4MzgwNy4xNjgsInN1YiI6IjY4OTRkMmZmNTI4YTExM2NhMGEzMmNiMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9FHG6N85opQLDWf-c0YaQ51EymUkF1QeNer8X2_auoA',
         },
       };
       const url1 =
