@@ -29,7 +29,8 @@ const MovieSearch = ({ title, data }) => {
               <div className="group-hover:scale-105 transition-transform duration-300 ease-in-out w-full h-full">
                 <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
                 <img
-                  src={`${import.meta.env.VITE_IMG_URL}${movie.poster_path}`}
+                //   src={`${import.meta.env.VITE_IMG_URL}${movie.poster_path}`}
+                  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                   alt={movie.title}
                   className="w-full h-full object-cover rounded-lg"
                 />
